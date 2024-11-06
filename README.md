@@ -42,6 +42,6 @@ Run the simulator from the command line:
 - `--output`: Output image file for the plot.
 
 ## Example usage
-pygbm simulate --y0 1.0 --mu 0.05 --sigma 0.2 --T 1.0 --N 100 --method analytical --output output_analytical.png
-pygbm simulate --y0 1.0 --mu 0.05 --sigma 0.2 --T 1.0 --N 100 --method euler --output output_euler.png
-pygbm simulate --y0 1.0 --mu 0.05 --sigma 0.2 --T 1.0 --N 100 --method milstein --output output_milstein.png
+- pygbm simulate --y0 1.0 --mu 0.05 --sigma 0.2 --T 1.0 --N 100 --method analytical --output output_analytical.png
+- pygbm simulate --y0 1.0 --mu 0.05 --sigma 0.2 --T 1.0 --N 100 --method euler --output output_euler.png
+- pygbm simulate --y0 1.0 --mu 0.05 --sigma 0.2 --T 1.0 --N 100 --method milstein --output output_milstein.png
