@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygbm"
+version = "0.1.0"
+
+dependencies = [
+    "numpy>=1.23.0",
+    "matplotlib>=3.5.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["pygbm"]
+
+[project.scripts]
+pygbm = "pygbm.gbm_simulator:main"
